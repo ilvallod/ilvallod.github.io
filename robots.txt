@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ilvallod.github.io/sitemap.xml
