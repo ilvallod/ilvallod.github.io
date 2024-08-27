@@ -8,18 +8,12 @@
     <language>en</language>
     <atom:link href="https://ilvallod.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://ilvallod.github.io/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ilvallod.github.io/projects/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Library</title>
       <link>https://ilvallod.github.io/library/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ilvallod.github.io/library/</guid>
-      <description>Coming soon.</description>
+      <description>The Talent Code
+Explores the science behind skill development and mastery</description>
     </item>
     <item>
       <title>Posts</title>
