@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Resources on ilvallod</title>
+    <link>http://localhost:1313/resources/</link>
+    <description>Recent content in Resources on ilvallod</description>
+    <image>
+      <title>ilvallod</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self improvement</title>
+      <link>http://localhost:1313/resources/self-improvement/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/self-improvement/</guid>
+      <description>&lt;h3 id=&#34;-books&#34;&gt;📖 Books&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://danielcoyle.com/the-talent-code/&#34;&gt;The Talent Code - Daniel Coyle&lt;/a&gt;
+Understand the brain mechanism and the &lt;a href=&#34;https://en.wikipedia.org/wiki/Myelin&#34;&gt;myelination&lt;/a&gt; process. Now I understand why Brazil from a few years ago was unstoppable :)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
