@@ -1,0 +1,155 @@
+{{- if .Params.languages -}}
+<div class="language-content">
+    {{- range $lang, $translation := .Params.languages -}}
+    <div class="lang-content" data-lang="{{ $lang }}" style="display: none;">
+        <div class="translated-post-content">
+            {{ $translation.content | markdownify }}
+        </div>
+    </div>
+    {{- end -}}
+</div>
+
+<div class="language-switcher" style="margin: 30px 0 10px 0;">
+    <div class="language-buttons" style="display: flex; gap: 15px; justify-content: flex-start;">
+        <span class="lang-btn" 
+              data-lang="en" 
+              style="cursor: pointer; color: var(--primary); text-decoration: underline; pointer-events: auto;">
+            EN
+        </span>
+        {{- range $lang, $translation := .Params.languages -}}
+        <span class="lang-btn" 
+              data-lang="{{ $lang }}" 
+              style="cursor: pointer; color: var(--secondary); text-decoration: none; pointer-events: auto;">
+            {{ upper $lang }}
+        </span>
+        {{- end -}}
+    </div>
+</div>
+
+<style>
+/* Rimuovi effetti hover */
+.language-switcher .lang-btn:hover {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+.language-switcher .lang-btn {
+    transition: none !important;
+}
+.language-switcher .lang-btn:hover,
+.language-switcher .lang-btn:focus,
+.language-switcher .lang-btn:active {
+    color: inherit !important;
+    text-decoration: inherit !important;
+    background: none !important;
+    opacity: 1 !important;
+}
+
+/* Uniforma gli stili del contenuto tradotto con quello principale */
+.translated-post-content {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.translated-post-content p {
+    margin: 1em 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+.translated-post-content p:first-child {
+    margin-top: 0;
+}
+
+.translated-post-content p:last-child {
+    margin-bottom: 0;
+}
+
+.translated-post-content a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.translated-post-content a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+/* Assicurati che i breakline siano rispettati */
+.translated-post-content br {
+    display: block;
+    margin: 0;
+    line-height: inherit;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const langButtons = document.querySelectorAll('.lang-btn');
+    const langContents = document.querySelectorAll('.lang-content');
+    const mainContent = document.querySelector('.post-content');
+    
+    // Funzione per aggiornare lo stato dei bottoni
+    function updateButtonStates(activeLang) {
+        langButtons.forEach(button => {
+            const buttonLang = button.getAttribute('data-lang');
+            if (buttonLang === activeLang) {
+                // Selezionato
+                button.style.color = 'var(--primary)';
+                button.style.textDecoration = 'underline';
+            } else {
+                // Non selezionato
+                button.style.color = 'var(--secondary)';
+                button.style.textDecoration = 'none';
+            }
+        });
+    }
+    
+    // Inizializza con EN selezionato
+    updateButtonStates('en');
+    
+    langButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const targetLang = this.getAttribute('data-lang');
+            
+            if (targetLang === 'en') {
+                // Mostra contenuto inglese originale
+                if (mainContent) {
+                    mainContent.style.display = 'block';
+                }
+                
+                // Nascondi tutti i contenuti tradotti
+                langContents.forEach(content => {
+                    content.style.display = 'none';
+                });
+                
+                updateButtonStates('en');
+            } else {
+                // Nascondi contenuto principale inglese
+                if (mainContent) {
+                    mainContent.style.display = 'none';
+                }
+                
+                // Nascondi tutti i contenuti tradotti
+                langContents.forEach(content => {
+                    content.style.display = 'none';
+                });
+                
+                // Mostra contenuto selezionato
+                const targetContent = document.querySelector(`.lang-content[data-lang="${targetLang}"]`);
+                if (targetContent) {
+                    targetContent.style.display = 'block';
+                }
+                
+                updateButtonStates(targetLang);
+            }
+        });
+    });
+});
+</script>
+{{- end -}}

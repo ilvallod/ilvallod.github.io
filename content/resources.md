@@ -1,5 +1,5 @@
 ---
-title: "Resources 📚"
+title: "Resources"
 date: 2025-02-27
 description: ""
 tags: []

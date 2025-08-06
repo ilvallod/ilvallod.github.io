@@ -1,0 +1,18 @@
+.language-switcher .lang-btn:hover {
+    background: var(--primary) !important;
+    color: var(--theme) !important;
+    opacity: 0.8;
+}
+
+.multilang-tab:hover {
+    background-color: var(--entry) !important;
+}
+
+.language-content {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
