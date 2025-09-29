@@ -69,4 +69,9 @@
   </footer>
 </article>
 
+{{ if .Params.comments }}
+  {{ partial "disqus.html" . }}
+  <script src="/js/theme-reload.js"></script>
+{{ end }}
+
 {{- end }}{{/* end main */}}
