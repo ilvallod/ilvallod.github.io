@@ -16,8 +16,14 @@ This is where I dump my thoughts—some technical, some random, all fueled by cu
  - [Miscellaneous ramblings](/posts/) – Deep dive into things I find interesting.
 
 ### Why Read This?
-Maybe you’re an unsupervided learner too. Either way, welcome. Let’s see where this thing goes.  
-
+Maybe you’re an unsupervided learner too. Either way, welcome. Let’s see where this thing goes.
 
 Enjoy!
+
+--- 
+<div class="llm-disclaimer">
+    On using LLMs: LLMs are fascinating and extremely useful in many contexts, but I won’t use them to write in my place. What I do here is an exercise in understanding what I think and the limits of my own reasoning. It’s more demanding, more imperfect, more honest, more real, and less optimized. I make attempts, reread, and change my mind :)<br><br>
+</div>
+
+
 

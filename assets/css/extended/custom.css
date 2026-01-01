@@ -12,6 +12,11 @@
     animation: fadeIn 0.3s ease-in-out;
 }
 
+.llm-disclaimer {
+  font-size: 0.9em;
+  opacity: 0.85;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
