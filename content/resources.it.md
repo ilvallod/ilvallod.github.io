@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: "Risorse"
 date: 2025-02-27
 description: ""
 tags: []
@@ -8,4 +8,5 @@ tags: []
 Questa è una collezione di cose che ho trovato interessanti, organizzate per argomento.\
 Ordinate senza una logica particolare :)
 
-- **[Self improvement](/resources/self-improvement/)**
+- **[Self improvement](self-improvement/)**
+- **[Lavoro](job/)**
