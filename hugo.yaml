@@ -43,6 +43,8 @@ params:
   showtoc: false
   tocopen: false
 
+  displayFullLangName: true
+
   assets:
     favicon16x16: /assets/favicon-16x16.png
     favicon32x32: /assets/favicon-32x32.png
@@ -69,14 +71,6 @@ params:
         url: posts
       - name: Tags
         url: tags
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: |
-            This is my corner that I wanted to open to share thoughts and tick off items on my backlog list :)
-            
-            I am an atypical Italian computer scientist. It's the right place if you want to learn more [about me](/about/), browse my [thoughts](/posts/), or pick up some advice on the [resources](/resources/) that have impressed me the most.
 
   socialIcons:
     - name: github
@@ -112,21 +106,6 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-    
-menu:
-  main:
-    - identifier: posts
-      name: Posts
-      url: /posts/
-      weight: 20
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 10
-    - identifier: resources
-      name: Resources
-      url: /resources/
-      weight: 30
       
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
@@ -146,3 +125,63 @@ services:
 taxonomies:
   tag: "tags"
   category: "categories"
+
+# Multi-language
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+languages:
+  en:
+    languageName: English
+    weight: 1 
+    menus:
+      main:
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 20
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 10
+        - identifier: resources
+          name: Resources
+          url: /resources/
+          weight: 30
+        - identifier: notes
+          name: Notes
+          url: /notes/
+          weight: 40
+    params:
+      homeInfoParams:
+        Title: "Hi there 👋"
+        Content: |
+          This is my corner that I wanted to open to share thoughts and tick off items on my backlog list :)
+
+          I am an atypical Italian computer scientist. It's the right place if you want to learn more [about me](about/), browse my [thoughts](posts/), or pick up some advice on the [resources](resources/) that have impressed me the most.
+  it:
+    languageName: Italiano
+    weight: 2
+    menus:
+      main:
+        - identifier: posts
+          name: Post
+          url: /posts/
+          weight: 20
+        - identifier: about
+          name: Chi sono
+          url: /about/
+          weight: 10
+        - identifier: resources
+          name: Risorse
+          url: /resources/
+          weight: 30
+        - identifier: notes
+          name: Note
+          url: /notes/
+          weight: 40
+    params:
+      homeInfoParams:
+        Title: "Ciao 👋"
+        Content: |
+          Questo è l'angolo dove filosofeggio e condivido alcuni dei miei pensieri. Ho deciso di aprirlo per spuntare cose dalla mia todo list :)
+          È il posto giusto se vuoi saperne di più [su di me](about/), leggere i miei [post](posts/), o prendere spunto dalle [risorse](resources/) che mi hanno colpito di più.

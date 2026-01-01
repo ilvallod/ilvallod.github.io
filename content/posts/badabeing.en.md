@@ -3,7 +3,6 @@ title: "Bada-being"
 date: 2025-09-26
 draft: false
 ShowToc: false
-comments: true
 ---
 
 > _What are we living for?_ [^1]
@@ -11,8 +10,6 @@ comments: true
 It’s a question posed by Dominic Chianese and could be the official subtitle of the series. After reading several articles on the philosophical interpretation behind The Sopranos, I continued to watch it from a different point of view, as a great treatise on existential philosophy masked as a gangster story. Try to fill the cosmic void again and again, a horror vacui that forces us to see our routine as a big ironic bluff.
 
 The strength of the series lies exactly in making this routine addictive. The mob’s life depicted in the images is exactly what the ultimate informant, Joe Pistone, said in this [interesting interview](https://youtu.be/C8UqyQiKanU?si=bwp9QOW1Qh60uX6Q). A life made of waiting and a constant sense of unease.
-
-![Bada bing logo](/images/badabeing_logo.png#center)
 
 ### It's all a big nothing 
 
