@@ -1,0 +1,23 @@
+# robots.txt
+# Rights reservation under EU Directive 2019/790 (DSM), Article 4
+# Text and data mining for AI training is explicitly reserved.
+
+# Allow standard search indexing
+User-agent: *
+Allow: /
+
+# Explicit opt-out for known AI training crawlers
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /

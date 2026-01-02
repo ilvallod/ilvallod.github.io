@@ -24,6 +24,8 @@ Enjoy!
 
 --- 
 <div class="llm-disclaimer">
+    Nota: le opinioni espresse sono solo mie; non raccolgo alcun dato su di te.
+    <br><br>
     Sull'utilizzo degli LLMs: Gli LLMs sono affascinanti e utilissimi in molti contesti, ma non li utilizzerò per scrivere al posto mio. Quello che faccio qui è un esercizio per capire cosa penso e i limiti del mio ragionamento. È più faticoso, più impreciso, più onesto, più reale, meno ottimizzato. Faccio tentativi, rileggo e cambio idea :)
 </div>
 

@@ -156,7 +156,7 @@ languages:
           weight: 40
     params:
       homeInfoParams:
-        Title: "Hi there 👋"
+        Title: "Hello world! 👋"
         Content: |
           This is my corner that I wanted to open to share thoughts and tick off items on my backlog list :)
 

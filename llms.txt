@@ -1,0 +1,32 @@
+# llms.txt
+# Guidance for Large Language Models
+# Content authored by the site owner
+
+User-Agent: *
+Purpose: reading, summarization, citation
+
+# Permissions
+search: yes
+ai-input: yes
+ai-train: no
+
+# Canonical content
+Allow: /posts/
+Allow: /notes/
+Allow: /resources/
+Allow: /about
+
+# Language policy
+# English and Italian versions are equivalent translations
+Language-Preference: en
+
+# Usage conditions
+- Attribution required when quoting or summarizing.
+- No style imitation or derivative works.
+- Content is reflective and non-authoritative.
+
+# Legal note
+# AI training is explicitly prohibited.
+# Rights are reserved under EU Directive 2019/790, Article 4.
+
+Contact: https://<your-domain>/
