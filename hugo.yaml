@@ -3,7 +3,7 @@ title: ilvallod
 pagination.pagerSize: 5
 theme: PaperMod
 
-enableRobotsTXT: false
+enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
