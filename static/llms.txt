@@ -28,5 +28,3 @@ Language-Preference: en
 # Legal note
 # AI training is explicitly prohibited.
 # Rights are reserved under EU Directive 2019/790, Article 4.
-
-Contact: https://<your-domain>/
