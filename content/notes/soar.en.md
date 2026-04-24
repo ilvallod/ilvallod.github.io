@@ -72,9 +72,8 @@ where:
 
 This loss explicitly reduces correlation between errors $\langle q, r \rangle$ and $\langle q, r' \rangle$, which is the core idea of SOAR.[^soar-paper]
 
-All these multiple assignments increase memory and indexing cost linearly with the number of copies per point. It is shown that a second assignment is already sufficient to cover most cases; additional ones bring marginal benefits relative to the cost.[^soar-paper]
+All these multiple assignments increase memory and indexing cost linearly with the number of copies per point. It is shown that a second assignment is already sufficient to cover most cases; additional ones bring marginal benefits relative to the cost.
 
 Link to the official paper: https://arxiv.org/pdf/2404.00774
 
 [^1]: $Q$ can be seen as a representative sample of real queries, i.e. the distribution of queries expected during system usage
-[^soar-paper]: Link to the official paper: https://arxiv.org/pdf/2404.00774
