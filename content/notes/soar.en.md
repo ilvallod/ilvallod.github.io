@@ -16,7 +16,7 @@ We approximate accuracy to gain efficiency, hence _Approximate Nearest Neighbor_
 ### Spill Tree
 Data replication to reduce partitioning errors.
 
-![alt text](spill-tree.png)
+![Spill tree diagram](/notes/spill-tree.png)
 
 Here, $t$ is a separating hyperplane that divides the space into two regions. An overlap is introduced so that points near the boundary are replicated in both $A$ and $B$.
 
@@ -50,7 +50,7 @@ A high $\langle q, r \rangle$ makes the point harder to retrieve.[^soar-paper]
 ### Spilling with Orthogonality-Amplified Residuals
 To avoid losing a point $x$ during search, we assign it to multiple partitions. But how do we choose the additional one?
 
-![alt text](ortogonal.png)
+![Orthogonal residuals diagram](/notes/ortogonal.png)
 
 On the left, choosing $c'$ produces a new residual $r'$ similar to $r$.  
 On the right, choosing $c''$ produces a residual $r''$ almost orthogonal to $r$.

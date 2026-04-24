@@ -16,7 +16,7 @@ Approssimo l'esattezza per guadagnare efficienza, da qui _Approximate Nearest Ne
 ### Spill Tree
 Replicazione dei dati per ridurre errori di partizionamento. 
 
-![alt text](spill-tree.png)
+![Diagramma spill tree](/notes/spill-tree.png)
 
 Qui vediamo $t$ come un iperpiano di separazione, divide lo spazio in due regioni. Si introduce un overlap in modo i punti vicini al confine siano replicati sia in $A$ che in $B$
 
@@ -44,7 +44,7 @@ Questo accade quando il residuo $r$ è allineato con la query $q$
 ### Spilling with Orthogonality-Amplified Residuals 
 Per evitare che un punto $x$ venga perso durante la ricerca lo assegniamo a più partizioni. Ma come scegliamo a quale altra partizione?
 
-![alt text](ortogonal.png)
+![Diagramma residui ortogonali](/notes/ortogonal.png)
 
 A sinistra, vediamo che scegliendo $c'$, il nuovo residuo $r'$ ha una direzione simile a $r$. A destra viene scelto $c''$ tale che il residuo $r''$ sia quasi ortogonale a $r$
 
