@@ -118,6 +118,8 @@ markup:
     # lineNos: true
     # style: monokai
   goldmark:
+    extensions:
+      footnote: true
     renderer:
       unsafe: true
 

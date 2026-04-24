@@ -7,5 +7,7 @@ description: ""
 ### Books
 - **_The Talent Code - Daniel Coyle_**
 Understand the brain mechanism and the [myelination](https://en.wikipedia.org/wiki/Myelin) process. Now I understand why Brazil from a few years ago was unstoppable :)
+- **_The alchemist - Paulo Coelho_**
+  A book, a journey
 
 
